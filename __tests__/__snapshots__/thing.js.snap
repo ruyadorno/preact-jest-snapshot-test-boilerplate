@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thing component should render a thing containing a link 1`] = `<a href="https://mobile.twitter.com">Lorem Ipsum</a>`;
+
+exports[`Thing component should render with a provided name 1`] = `<a>Lorem Ipsum</a>`;

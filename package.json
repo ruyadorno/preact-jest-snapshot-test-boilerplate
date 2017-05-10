@@ -1,0 +1,31 @@
+{
+  "name": "preact-jest-snapshot-test-boilerplate",
+  "version": "1.0.0",
+  "description": "Test Preact components using Jest snapshots",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "boilerplate",
+    "preact",
+    "jest",
+    "snapshot",
+    "html"
+  ],
+  "dependencies": {
+    "babel": "^6.23.0",
+    "jest": "^20.0.0",
+    "jest-serializer-html-string": "^1.0.1",
+    "preact": "^7.2.1",
+    "preact-render-to-string": "^3.6.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "snapshotSerializers": [
+      "jest-serializer-html-string"
+    ]
+  },
+  "author": "Ruy Adorno",
+  "license": "MIT"
+}
