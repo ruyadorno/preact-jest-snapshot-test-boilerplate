@@ -10,12 +10,12 @@ A boilerplate for a very minimal setup running [Jest snapshot](https://facebook.
 The following are the very minimal requirements in order to use the Jest snapshot tests.
 
 - Jest
- - `jest-serializer-html-string` plugin dependency
- - extra config added on `package.json` file
+  - `jest-serializer-html-string` plugin dependency
+  - extra config added on `package.json` file
 - Preact
- - `preact-render-to-string`
+  - `preact-render-to-string`
 - Babel
- - `babel-plugin-transform-react-jsx`
+  - `babel-plugin-transform-react-jsx`
 
 ## Example walkthrough
 
